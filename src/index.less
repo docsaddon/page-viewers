@@ -1,0 +1,67 @@
+@import './styles/cssvar.less';
+input {
+  background: none;
+  outline: none;
+  border: 0;
+}
+
+.content-container {
+  overflow-y: auto;
+  word-wrap: break-word;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 8px 12px;
+  border-radius: 8px;
+  gap: 8px;
+
+
+  .preview-content-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 22px;
+    width: 100%;
+
+    .preview {
+      overflow: auto;
+      word-wrap: break-word;
+      word-break: break-all;
+      line-break: auto;
+
+      .close {
+        padding: 0 4px;
+      }
+    }
+  }
+
+  input[type="button"] {
+    padding: 0 !important;
+  }
+
+  .icon-content {
+    position: relative;
+    width: 24px;
+    height: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    top: calc(50% - 24px/2);
+    border-radius: 6px;
+
+    &.edit {
+      right: 0;
+      &:hover {
+        cursor: pointer;
+        background-color: var(--fill-hover);
+      }
+    }
+
+    .edit {
+      color: var(--icon-n2);
+    }
+  }
+}

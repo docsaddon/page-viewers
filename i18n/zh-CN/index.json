@@ -1,0 +1,28 @@
+{
+  "ViewData_Inline_Text": "本文共 {WordCount} 字，预计需要阅读 {EstRead} 分钟，你是第 {VisitorCount} 位访客",
+  "ViewData_Menu": "阅读数据",
+  "ViewData_Menu_Onboarding": "在文档内展示全文字数、预计阅读时长、访客数量等信息",
+  "ViewData_Settings_AddRef_Tooltip": "添加引用",
+  "ViewData_Settings_Cancel_Btn": "取消",
+  "ViewData_Settings_Confirm_Btn": "确定",
+  "ViewData_Settings_Content": "内容",
+  "ViewData_Settings_Header": "设置内容",
+  "ViewData_Settings_Icon": "图标",
+  "ViewData_Settings_Preview": "预览",
+  "ViewData_Settings_References": "引用",
+  "ViewData_Settings_References_Date_Menu": "当前日期",
+  "ViewData_Settings_References_EstRead_Menu": "预估阅读时长",
+  "ViewData_Settings_References_VisitorCount_Menu": "访问人数",
+  "ViewData_Settings_References_VisitorName_Menu": "访客名",
+  "ViewData_Settings_References_VisitorRank_Menu": "访问次数",
+  "ViewData_Settings_References_WordCount_Menu": "文档字数",
+  "ViewData_Settings_Theme": "主题色",
+  "ViewData_Settings_templateOne": "预计阅读时长",
+  "ViewData_Settings_templateTwo": "文档阅读人数",
+  "ViewData_Settings_templateOne_value": "本文字数{WordCount}个，预计阅读时间{EstRead}分钟",
+  "ViewData_Settings_templateTwo_value": "截止到{Date}，已经有{VisitorCount}人阅读过本文档",
+  "ViewData_Settings_Setting_self": "自定义内容",
+  "ViewData_Settings_Dynamic_Data": "动态数据", 
+  "ViewData_Settings_Setting": "编辑"
+
+}

@@ -1,0 +1,18 @@
+{
+  "manifestVersion": 1,
+  "appID": "xxx",
+  "appType": "docs-addon",
+  "blockTypeID": "xxx",
+  "projectName": "page-viewers",
+  "initialHeight": 40,
+  "contributes": {
+    "addPanel": {
+      "useInteraction": true,
+      "view": "index.html",
+      "useHostLoading": true
+    },
+    "popup": {
+      "view": "setting.html"
+    }
+  }
+}
